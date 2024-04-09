@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dictionary.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">Dictionary App</header>
+
+    <div class="container">
+        <div class="search_con">
+            <div class="heading">
+                <h1>Dictionary - Meaning & Example</h1>
+                <p>what word do you want to look up?</p>
+            </div>
+        </div>
+        <div class="input">
+            <div class="main">
+                <p id="title">Enter word here</p>
+                <input type="text" id="input" placeholder="Enter dictionary word">
+                <button id="btn" onclick="display()">Submit</button>
+            </div>
+        </div>
+     </div>
+    
+    <div class="result" style="display: none;">
+      <div class="result_child">
+        <div class="verb">
+            <div>
+                <h1 id="word"><b>Word:</b></h1>
+                <audio controls id="audio">
+                    <source src="" >
+                </audio>
+            </div>
+        </div>
+        <hr>
+        <div class="Noun">
+            <h1>Noun:</h1>
+            <p id="Example"><b>Example:</b></p>
+            <p id="Synonyms"><b>Synonyms:</b></p>
+            <hr>
+        </div>
+        <div class="Interjection">
+            <h1>Interjection:</h1>
+            <div>
+                <p id="Interjection_E1"><b>Example:</b></p>
+                <p id="Interjection_E2"><b>Example:</b></p>
+                <a id="link" href="#"><b>Wikipedia link:</b></a>
+            </div>
+        </div>
+       
+    </div>
+      </div>
+      <footer id="footer">Copyright &copy; 2024 developed by <a href="dictionary.html" style="color: orange;">Mayur</a></footer>
+       
+     <script src="dictionary.js"></script>
+</body>
+</html>

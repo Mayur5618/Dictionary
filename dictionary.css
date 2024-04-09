@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    
+}
+#header{
+    background-color: blue;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size:25px;
+}
+.container{
+    width:100vw;
+    margin-top: 30px;
+}
+.search_con{
+    width:100vw;
+    height:70px;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    width: 50vw;
+   
+}
+.input{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width:50vw;
+    border: 1px solid #818181;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+#title{
+    text-align:left;
+    margin-left: 20px;
+    margin-bottom: 6px;
+}
+#input{
+  width: 95%;
+  height: 30px;
+  padding: 18px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #818181;
+}
+#btn{
+    display: block;
+    margin:10px 0px 20px 20px;
+    border-style: none;
+    padding: 10px;
+    width: 70px;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    font-weight:500;
+
+}
+
+.result{
+    width:100vw;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+.result_child{
+    border: 0.5px solid #818181;
+    width:50%;
+    margin:0 auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+.verb,.Noun,.Interjection{
+    display:block;
+    margin: 10px;
+    padding: 10px;
+}
+#word,#Example,#Synonyms,#Interjection_E1,#Interjection_E2{
+    padding: 10px;
+}
+#footer{
+    width: 100vw;
+    padding:5px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    font-size: 14px;
+    top:95vh;
+    background-color: blue;
+}
+
+@media screen and (max-width:320px) {
+
+    #header{
+        font-size: 15px;
+        width: 100vw;
+    }
+    .heading{
+        width: 90vw;
+        font-size: 8px;
+       
+    }
+    .search_con{
+        width:100vw;
+        height: auto;
+        padding: 5px;
+    }
+    .main{
+        width:90vw;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .result_child{
+        width:90%;
+        padding: 10px;  
+    }
+    #audio
+    {
+        width:100px
+    }
+    #footer{
+        font-size: 10px;
+        top:97vh;
+    }
+   
+}
+
